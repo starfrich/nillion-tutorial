@@ -4,6 +4,8 @@ Nillion recently launched their Verifier Program on August 27th! Early participa
 ## How to be verifier?
 In this repository, I will guide you through the process of running the verifier on an <b>Ubuntu VPS</b>.
 
+### This is not official documentation, and I do not recommend following this method as it might not be 100% accurate.
+
 1. First, you need to install the [Keplr Wallet](https://www.keplr.app/get) on your browser. Do not create a wallet yet, as we will use a new wallet from the accuser credentials later.
 
 2. Clone this repository for a quick installation:
@@ -85,5 +87,6 @@ docker logs --tail=1000000 nillion | grep -A 2 Registered | tail -3
 docker restart nillion
 ```
 
-## Source:
+## Credit:
 - [Nodes Guru](https://nodes.guru/testnets/nillion/setup-guide/en)
+
