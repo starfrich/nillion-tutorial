@@ -84,3 +84,6 @@ docker logs --tail=1000000 nillion | grep -A 2 Registered | tail -3
 ```
 docker restart nillion
 ```
+
+## Source:
+- [Nodes Guru](https://nodes.guru/testnets/nillion/setup-guide/en)
