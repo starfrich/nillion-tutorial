@@ -23,7 +23,7 @@ Make sure to save the "Accuser Credentials" data in a safe place and ensure it i
 4. Before proceeding, make sure no one is around you so they cannot see your accuser data! At this step, you will see your private key, which you need to import into the Keplr Wallet.
 
 ```bash
-cat nillion/accuser/credentials.json
+cat ~/nillion/accuser/credentials.json
 ```
 
 The output will look like this:
