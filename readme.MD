@@ -8,7 +8,7 @@ In this repository, I will guide you through the process of running the verifier
 
 2. Clone this repository for a quick installation:
 ```bash
-git clone https://github.com/starfrich/nillion.git && cd nillion-tutorial/ && chmod +x index.sh
+git clone https://github.com/starfrich/nillion-tutorial.git && cd nillion-tutorial/ && chmod +x index.sh
 ```
 ```bash
 ./index.sh
