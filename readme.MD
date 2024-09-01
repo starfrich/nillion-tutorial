@@ -4,7 +4,7 @@ Nillion recently launched their Verifier Program on August 27th! Early participa
 ## How to be verifier?
 In this repository, I will guide you through the process of running the verifier on an <b>Ubuntu VPS</b>.
 
-### This is not official documentation, and I do not recommend following this method as it might not be 100% accurate.
+<b>This is not official documentation, and I do not recommend following this method as it might not be 100% accurate.</b>
 
 1. First, you need to install the [Keplr Wallet](https://www.keplr.app/get) on your browser. Do not create a wallet yet, as we will use a new wallet from the accuser credentials later.
 
@@ -52,9 +52,9 @@ Then choose linux:
 
 Then click "Complete Accuser Connection".
 
-9. Now, proceed to Step 7 since we’ve already funded our wallet with the faucet. Go to: https://testnet.nillion.explorers.guru/account/(your_nillion_address) to check the first block your node registered in the transactions tab.
+9. Now, proceed to Step 7 since we’ve already funded our wallet with the faucet. Go to: https://testnet.nillion.explorers.guru/account/(your_nillion_address) to check the first block your node registered in the transactions tab and look for type "Pay For".
 
-![image](https://github.com/user-attachments/assets/1122c966-6073-499e-81ca-62610152673b)
+![image](https://github.com/user-attachments/assets/e334d6ee-377f-49f1-a8e3-13bc116c3e94)
 
 For example, my node registered at block 5245527, but we need to start our block 5 blocks before that, so I will start from block 5245522.
 
