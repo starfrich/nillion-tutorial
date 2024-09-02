@@ -2,7 +2,7 @@
 Nillion recently launched their Verifier Program on August 27th! Early participants will be recognized for their contributions and gain a unique position within the Nillion community.
 
 ## How to be verifier?
-In this repository, I will guide you through the process of running the verifier on an <b>Ubuntu VPS</b>.
+In this repository, I will guide you through the process of running the verifier on an **Ubuntu VPS** with **root** access. If you are not using root, add `sudo` in the first command.
 
 > **Warning:** This is not official documentation, and I do not recommend following this method as it might not be 100% accurate.
 
