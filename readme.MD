@@ -36,6 +36,11 @@ The output will look like this:
 
 ![image](https://github.com/user-attachments/assets/90f1befb-a640-4cdb-ac8b-e90e69a3d499)
 
+Alternative RPC: 
+```bash
+https://nillion-testnet-rpc.polkachu.com
+```
+
 6. Fund your wallet using the faucet: https://faucet.testnet.nillion.com/
 
 7. Open the verifier dashboard at: https://verifier.nillion.com/verifier, connect your wallet, and select "Verifier".
@@ -50,7 +55,7 @@ Then choose linux:
 
 ![image](https://github.com/user-attachments/assets/4f69c0a2-8d0f-4b1b-a00a-3b78413d138e)
 
-Then click "Complete Accuser Connection". You will see pop up to your keplr wallet, than click approve.
+Then click "Complete Accuser Connection". You will see pop up to your keplr wallet, then click approve.
 
 9. Now, proceed to Step 7 since we’ve already funded our wallet with the faucet. Go to: https://testnet.nillion.explorers.guru/account/(your_nillion_address) to check the first block your node registered in the transactions tab and look for type "Pay For".
 
