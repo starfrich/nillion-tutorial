@@ -46,6 +46,9 @@ Alternative RPC:
 ```bash
 https://nillion-testnet-rpc.polkachu.com
 ```
+```bash
+https://nillion-testnet.rpc.decentrio.ventures/
+```
 </p>
 <p>
 6. Fund your wallet using the faucet: https://faucet.testnet.nillion.com/
