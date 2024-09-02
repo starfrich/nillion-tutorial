@@ -6,9 +6,9 @@ In this repository, I will guide you through the process of running the verifier
 
 > **Warning:** This is not official documentation, and I do not recommend following this method as it might not be 100% accurate.
 
-<p>
+
 1. First, you need to install the [Keplr Wallet](https://www.keplr.app/get) on your browser. Do not create a wallet yet, as we will use a new wallet from the accuser credentials later.
-</p>
+
 <p>
 2. Clone this repository for a quick installation:
 
