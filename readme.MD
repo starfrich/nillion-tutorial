@@ -47,7 +47,7 @@ Alternative RPC:
 https://nillion-testnet-rpc.polkachu.com
 ```
 ```bash
-https://nillion-testnet.rpc.decentrio.ventures/
+https://nillion-testnet.rpc.decentrio.ventures
 ```
 </p>
 <p>
