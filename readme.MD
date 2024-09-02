@@ -50,7 +50,7 @@ Then choose linux:
 
 ![image](https://github.com/user-attachments/assets/4f69c0a2-8d0f-4b1b-a00a-3b78413d138e)
 
-Then click "Complete Accuser Connection".
+Then click "Complete Accuser Connection". You will see pop up to your keplr wallet, than click approve.
 
 9. Now, proceed to Step 7 since we’ve already funded our wallet with the faucet. Go to: https://testnet.nillion.explorers.guru/account/(your_nillion_address) to check the first block your node registered in the transactions tab and look for type "Pay For".
 
@@ -83,8 +83,24 @@ docker logs --tail=1000000 nillion | grep -A 2 Registered | tail -3
 1. If the output from this command (docker logs --tail=1000000 nillion | grep -A 2 Registered | tail -3) is blank or empty: You might need to wait for 5-10 minutes.
 
 2. Accuser not accusing:
-```
+```bash
 docker restart nillion
+```
+
+3. RPC Error:
+![image](https://github.com/user-attachments/assets/6f31f0eb-3bc3-4518-ac7c-162269db2523)
+
+you can change your rpc to: 
+```bash
+https://nillion-testnet-rpc.polkachu.com
+```
+
+First, you need to stop and remove your existing container:
+```bash
+docker stop nillion && docker rm nillion
+```
+```bash
+sudo docker run -d --name nillion -v $HOME/nillion/accuser:/var/tmp nillion/retailtoken-accuser:v1.0.0 accuse --rpc-endpoint "https://nillion-testnet-rpc.polkachu.com" --block-start (your_last_block)
 ```
 
 ## Credit:
