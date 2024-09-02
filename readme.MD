@@ -5,7 +5,7 @@ Nillion recently launched their Verifier Program on August 27th! Early participa
 In this repository, I will guide you through the process of running the verifier on an <b>Ubuntu VPS</b>.
 
 <b>This is not official documentation, and I do not recommend following this method as it might not be 100% accurate.</b>
-
+<p>
 1. First, you need to install the [Keplr Wallet](https://www.keplr.app/get) on your browser. Do not create a wallet yet, as we will use a new wallet from the accuser credentials later.
 
 2. Clone this repository for a quick installation:
@@ -31,7 +31,7 @@ cat ~/nillion/accuser/credentials.json
 The output will look like this:
 
 ![image](https://github.com/user-attachments/assets/bce6ff8f-4ee4-4ba5-800d-b4db041a47a7)
-<p>
+
 5. Add the Nillion RPC to your Keplr Wallet here: https://chains.keplr.app/ and search for "Nillion".
 
 ![image](https://github.com/user-attachments/assets/90f1befb-a640-4cdb-ac8b-e90e69a3d499)
@@ -40,7 +40,7 @@ Alternative RPC:
 ```bash
 https://nillion-testnet-rpc.polkachu.com
 ```
-</p>
+
 6. Fund your wallet using the faucet: https://faucet.testnet.nillion.com/
 
 7. Open the verifier dashboard at: https://verifier.nillion.com/verifier, connect your wallet, and select "Verifier".
@@ -111,3 +111,4 @@ sudo docker run -d --name nillion -v $HOME/nillion/accuser:/var/tmp nillion/reta
 ## Credit:
 - [Nodes Guru](https://nodes.guru/testnets/nillion/setup-guide/en)
 
+</p>
