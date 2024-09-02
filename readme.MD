@@ -36,10 +36,10 @@ The output will look like this:
 
 ![image](https://github.com/user-attachments/assets/90f1befb-a640-4cdb-ac8b-e90e69a3d499)
 
-Alternative RPC: 
-```bash
-https://nillion-testnet-rpc.polkachu.com
-```
+    Alternative RPC: 
+    ```bash
+    https://nillion-testnet-rpc.polkachu.com
+    ```
 
 6. Fund your wallet using the faucet: https://faucet.testnet.nillion.com/
 
