@@ -81,26 +81,31 @@ docker run -d --name nillion -v ./nillion/accuser:/var/tmp nillion/retailtoken-a
 </p>
 
 ## CLI Commands:
-
+<p>
 Check logs:
 ```bash
 docker logs -f nillion --tail 50
 ```
-
+</p>
+<p>
 Verify if your verifier is registered: true and stores some secret:
 ```bash
 docker logs --tail=1000000 nillion | grep -A 2 Registered | tail -3
 ```
-
+</p>
 
 ## Known issue:
+<p>
 1. If the output from this command (docker logs --tail=1000000 nillion | grep -A 2 Registered | tail -3) is blank or empty: You might need to wait for 5-10 minutes.
+</p>
 
+<p>
 2. Accuser not accusing:
 ```bash
 docker restart nillion
 ```
-
+</p>
+<p>
 3. RPC Error:
 ![image](https://github.com/user-attachments/assets/6f31f0eb-3bc3-4518-ac7c-162269db2523)
 
@@ -116,7 +121,8 @@ docker stop nillion && docker rm nillion
 ```bash
 sudo docker run -d --name nillion -v $HOME/nillion/accuser:/var/tmp nillion/retailtoken-accuser:v1.0.0 accuse --rpc-endpoint "https://nillion-testnet-rpc.polkachu.com" --block-start (your_last_block)
 ```
+</p>
 
 ## Credit:
 - [Nodes Guru](https://nodes.guru/testnets/nillion/setup-guide/en)
-
+- [kjnodes](https://services.kjnodes.com/)
