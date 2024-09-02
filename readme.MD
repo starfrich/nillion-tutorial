@@ -10,6 +10,7 @@ In this repository, I will guide you through the process of running the verifier
 </p>
 <p>
 2. Clone this repository for a quick installation:
+
 ```bash
 git clone https://github.com/starfrich/nillion-tutorial.git && cd nillion-tutorial/ && chmod +x index.sh
 ```
@@ -81,14 +82,17 @@ docker run -d --name nillion -v ./nillion/accuser:/var/tmp nillion/retailtoken-a
 </p>
 
 ## CLI Commands:
+
 <p>
 Check logs:
+
 ```bash
 docker logs -f nillion --tail 50
 ```
 </p>
 <p>
 Verify if your verifier is registered: true and stores some secret:
+
 ```bash
 docker logs --tail=1000000 nillion | grep -A 2 Registered | tail -3
 ```
@@ -101,6 +105,7 @@ docker logs --tail=1000000 nillion | grep -A 2 Registered | tail -3
 
 <p>
 2. Accuser not accusing:
+
 ```bash
 docker restart nillion
 ```
@@ -110,6 +115,7 @@ docker restart nillion
 ![image](https://github.com/user-attachments/assets/6f31f0eb-3bc3-4518-ac7c-162269db2523)
 
 you can change your rpc to: 
+
 ```bash
 https://nillion-testnet-rpc.polkachu.com
 ```
@@ -119,7 +125,7 @@ First, you need to stop and remove your existing container:
 docker stop nillion && docker rm nillion
 ```
 ```bash
-sudo docker run -d --name nillion -v $HOME/nillion/accuser:/var/tmp nillion/retailtoken-accuser:v1.0.0 accuse --rpc-endpoint "https://nillion-testnet-rpc.polkachu.com" --block-start (your_last_block)
+sudo docker run -d --name nillion -v $HOME/nillion/accuser:/var/tmp nillion/retailtoken-accuser:v1.0.0 accuse --rpc-endpoint "https://nillion-testnet-rpc.polkachu.com" --block-start (your_latest_block)
 ```
 </p>
 
