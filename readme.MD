@@ -112,6 +112,7 @@ docker restart nillion
 </p>
 <p>
 3. RPC Error:
+
 ![image](https://github.com/user-attachments/assets/6f31f0eb-3bc3-4518-ac7c-162269db2523)
 
 you can change your rpc to: 
