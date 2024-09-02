@@ -131,4 +131,4 @@ sudo docker run -d --name nillion -v $HOME/nillion/accuser:/var/tmp nillion/reta
 
 ## Credit:
 - [Nodes Guru](https://nodes.guru/testnets/nillion/setup-guide/en)
-- [kjnodes](https://services.kjnodes.com/)
+- [Polkachu](https://nillion-testnet-rpc.polkachu.com/)
