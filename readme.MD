@@ -31,7 +31,7 @@ cat ~/nillion/accuser/credentials.json
 The output will look like this:
 
 ![image](https://github.com/user-attachments/assets/bce6ff8f-4ee4-4ba5-800d-b4db041a47a7)
-
+<p>
 5. Add the Nillion RPC to your Keplr Wallet here: https://chains.keplr.app/ and search for "Nillion".
 
 ![image](https://github.com/user-attachments/assets/90f1befb-a640-4cdb-ac8b-e90e69a3d499)
@@ -40,7 +40,7 @@ Alternative RPC:
 ```bash
 https://nillion-testnet-rpc.polkachu.com
 ```
-
+</p>
 6. Fund your wallet using the faucet: https://faucet.testnet.nillion.com/
 
 7. Open the verifier dashboard at: https://verifier.nillion.com/verifier, connect your wallet, and select "Verifier".
